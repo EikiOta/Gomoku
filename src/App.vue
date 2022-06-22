@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Gomoku/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Gomoku from './components/Gomoku.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Gomoku
   }
 }
 </script>
